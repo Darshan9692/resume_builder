@@ -25,7 +25,7 @@ const Radio = (props) => {
                     ))
                 }
             </div>
-            <span className='absolute mt-14 text-sm text-red-500'>Hello</span>
+            <span className='absolute mt-14 text-sm text-red-500'></span>
         </div>
     );
 }

@@ -12,7 +12,7 @@ const Input = (props) => {
                 placeholder={props.placeholder}
                 readOnly={props.name === "skills"}  // Correct usage of readOnly attribute
             />
-            <span className='absolute mt-14 text-sm text-red-500'>Hello</span>
+            <span className='absolute mt-14 text-sm text-red-500'></span>
         </div>
     )
 }

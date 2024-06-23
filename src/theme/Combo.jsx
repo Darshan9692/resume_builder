@@ -12,7 +12,7 @@ const Combo = (props) => {
           <option key={index} value={d?.value}>{d?.value}</option>
         ))}
       </select>
-      <span className='absolute mt-14 text-sm text-red-500'>Hello</span>
+      <span className='absolute mt-14 text-sm text-red-500'></span>
     </div>
   );
 }
