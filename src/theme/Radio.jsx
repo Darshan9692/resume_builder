@@ -7,7 +7,7 @@ const Radio = (props) => {
             <label htmlFor={props?.name} className="text-sm font-medium text-gray-700">
                 {props?.name}
             </label>
-            <div className={`flex gap-4 ${props?.className}`} id={props?.name}>
+            <div className={`flex gap-4 ${props?.className} relative`} id={props?.name}>
                 {
                     gender.map((value) => (
                         <div key={value?.id} className="flex items-center gap-2">
@@ -25,6 +25,7 @@ const Radio = (props) => {
                     ))
                 }
             </div>
+            <span className='absolute mt-14 text-sm text-red-500'>Hello</span>
         </div>
     );
 }

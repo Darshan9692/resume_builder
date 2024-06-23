@@ -5,6 +5,8 @@ import About from './components/About';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import Project from './components/Project';
+import ClickEvent from './components/ClickEvent';
+import HoverEvent from './components/HoverEvent';
 
 function App() {
   const [step, setStep] = useState(1);
@@ -24,6 +26,10 @@ function App() {
   }
 
   return (
+    // <>
+    //   <ClickEvent/>
+    //   <HoverEvent/>
+    // </>
     <div className='box-border mx-auto my-0 p-10 flex flex-col justify-center items-center relative'>
       <div className='max-w-screen p-4 overflow-y-auto w-full max-w-4xl absolute top-28'>
         {step === 1 && <Profile />}
